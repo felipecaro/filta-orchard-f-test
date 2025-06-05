@@ -3,8 +3,8 @@ import GalleryHero from "../components/galleryHero";
 
 function HeroSection() {
   return (
-    <div className="py-32 px-36 grid grid-cols-3 gap-4">
-      <div class="col-span-2">
+    <div className="py-32 px-36 grid grid-cols-3 gap-3">
+      <div className="col-span-2">
         <GalleryHero />
       </div>
       <Greeting
