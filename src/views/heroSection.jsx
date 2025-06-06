@@ -1,4 +1,4 @@
-import Greeting from "../components/Greeting";
+import Greeting from "../components/greeting";
 import GalleryHero from "../components/galleryHero";
 
 function HeroSection() {
