@@ -5,9 +5,9 @@ import colorWhite from "../assets/color-white.jpg";
 
 function ColorsSection() {
   return (
-    <div className="py-32 px-36 grid grid-cols-3 gap-3">
-      <div className="col-span-3 text-center">
-        <h2 className="text-3xl font-light uppercase mb-8 pb-8 border-b border-white inline-block">
+    <div className="py-10 px-12 lg:py-28 lg:px-22 xl:py-32 xl:px-36 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+      <div className="sm:col-span-2 lg:col-span-3 text-center">
+        <h2 className="text-2xl lg:text-3xl font-light uppercase mb-8 pb-8 border-b border-white inline-block">
           Taste the colours
         </h2>
       </div>
