@@ -14,7 +14,7 @@ const GaleryHero = () => (
           delay: 0.1,
           ease: "easeInOut",
         }}
-        className="h-full max-w-full object-cover object-center"
+        className="h-auto lg:h-full max-w-full object-cover object-center"
         src={imageOne}
         alt="gallery-photo-1"
       ></motion.img>
@@ -28,7 +28,7 @@ const GaleryHero = () => (
           delay: 0.2,
           ease: "easeInOut",
         }}
-        className="h-full max-w-full object-cover object-center"
+        className="h-auto lg:h-full max-w-full object-cover object-center"
         src={imageTwo}
         alt="gallery-photo-2"
       ></motion.img>
@@ -42,7 +42,7 @@ const GaleryHero = () => (
           delay: 0.3,
           ease: "easeInOut",
         }}
-        className="h-full max-w-full object-cover object-center"
+        className="h-auto lg:h-full max-w-full object-cover object-center"
         src={imageThree}
         alt="gallery-photo-3"
       ></motion.img>
